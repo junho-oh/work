@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Chinese Zodiac JavaScript for loop (2D array)</title>
+	<meta content="utf-8">
+	<script src="forLoop1.js"></script>
+	<link rel="stylesheet" type="text/css" href="loop2d.css" />
+</head>
+<body>
+<h1>Chinese Zodiac JavaScript for loop (2D array)</h1>
+<table id="123"></table>
+<script>
+	// declaring a 2D array
+	var signs = new Array(12);
+	for (var ndx = 0; ndx < 12; ndx++) {
+		signs[ndx] = new Array(2);
+	}
+	
+	// The names first
+	signs[0][0] = "Rat";
+	signs[1][0] = "Ox";
+	signs[2][0] = "Tiger";
+	signs[3][0] = "Rabbit";
+	signs[4][0] = "Dragon";
+	signs[5][0] = "Snake";
+	signs[6][0] = "Horse";
+	signs[7][0] = "Goat";
+	signs[8][0] = "Monkey";
+	signs[9][0] = "Rooster";
+	signs[10][0] = "Dog";
+	signs[11][0] = "Pig";
+	
+	// Next the image file names
+	signs[0][1] = "rat.gif";
+	signs[1][1] = "ox.gif";
+	signs[2][1] = "tgr.gif";
+	signs[3][1] = "rbt.png";
+	signs[4][1] = "drgn.png";
+	signs[5][1] = "snk.png";
+	signs[6][1] = "hrs.gif";
+	signs[7][1] = "gt.gif";
+	signs[8][1] = "mnky.png";
+	signs[9][1] = "rstr.gif";
+	signs[10][1] = "dog.gif";
+	signs[11][1] = "pig.gif";
+
+	makeTable2(signs);
+</script>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+a:hover {
+  color: red; 
+  text-decoration: none;
+}
+
+span.cent {
+  color: blue;
+  font-size: 30pt;
+}
+
+span.and {
+  font-size: 20pt;
+}
+
+span.dollar {
+  color: green;
+  font-size: 30pt;
+}
+
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+p {
+    color:red;
+}

@@ -1,0 +1,25 @@
+body{
+	font-family: arial;
+	text-align: center;
+}
+
+h1{
+	background-color: #ff5900;
+	color: yellow;
+}
+
+table {
+   /*border: 1px solid black;*/
+   text-align: center;
+   width: 100%;
+}
+
+td:nth-child(odd){
+		background-color: #a63a00;
+		color: yellow;
+}
+
+td:nth-child(even){
+		background-color: #ff5900;
+		color: white;
+}

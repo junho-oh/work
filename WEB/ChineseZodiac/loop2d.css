@@ -1,0 +1,24 @@
+body{
+	font-family: arial;
+	text-align: center;
+}
+
+h1{
+	background-color: #8b42d6;
+	color: white;	
+}
+
+table {
+   text-align: center;
+   width: 100%;
+}
+
+td:nth-child(odd){
+		background-color: #5c0fac;
+		color: yellow;
+}
+
+td:nth-child(even){
+		background-color: #8b42d6;
+		color: white;
+}
